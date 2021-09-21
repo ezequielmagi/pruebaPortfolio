@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  align-items: center;
+  background-color: black;
+  color: #fafafa;
+  display: flex;
+  height: 10vh;
+  padding: 10px;
+}
+
+header p {
+  font-size: 1.5rem;
+}
+
+.main-container {
+  height: 90vh;
+}
