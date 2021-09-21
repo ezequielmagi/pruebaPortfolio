@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +12,82 @@ header {
   color: #fafafa;
   display: flex;
   height: 10vh;
-  padding: 10px;
+  padding: 15px;
 }
 
 header p {
   font-size: 1.5rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
 }
 
 .main-container {
   height: 90vh;
+}
+
+.circulo1 {
+  background-color: blueviolet;
+  border-radius: 50%;
+  height: 120vh;
+  width: 180vw;
+  opacity: 30%;
+  position: absolute;
+  left: -80%;
+  top: -50%;
+  z-index: -5;
+}
+
+.title-container {
+  font-size: 1.5rem;
+  left: 7%;
+  position: absolute;
+  top: 15%;
+}
+
+.title-container h1 {
+  font-family: Roboto;
+  color: #fafafa;
+  z-index: 5;
+}
+
+.circulo2 {
+  background-color: red;
+  border-radius: 50%;
+  height: 110vh;
+  width: 200vw;
+  opacity: 30%;
+  position: absolute;
+  left: -80%;
+  top: -50%;
+  z-index: -4;
+}
+.circulo3 {
+  background-color: greenyellow;
+  border-top-left-radius: 150%;
+  border-bottom-left-radius: 0%;
+  height: 50vh;
+  width: 150vw;
+  opacity: 30%;
+  position: absolute;
+  bottom: -100%;
+  top: 50%;
+  z-index: -2;
+}
+.circulo4 {
+  background-color: blue;
+  border-top-left-radius: 150%;
+  border-bottom-left-radius: 0%;
+  height: 50vh;
+  width: 100vw;
+  opacity: 50%;
+  position: absolute;
+  bottom: -50%;
+  top: 50%;
+  right: -20%;
+  z-index: -1;
+}
+
+.projects-container {
+  background-color: #f3e9b2;
+  height: 100vh;
 }
